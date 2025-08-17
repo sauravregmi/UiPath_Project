@@ -1,0 +1,156 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1360,939" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Location">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Texas</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="484,275" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Provide city name" Title="Location" TopMost="False">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[Location]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Zillow Real Estate, Apartments, Mortga(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,641" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="79c054a9-f928-4479-8422-14c7360839ae" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,400" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'clear search text butto…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,281" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="79c054a9-f928-4479-8422-14c7360839ae" Text="[Location + &quot;[k(Enter)]&quot;]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="zillow.com" CVScreenId="b3888337-2d19-49b1-8528-ae4202cc852e" ContentHash="hdZXQkbVf0CBzjNr63okUw" CvTextArea="80, 463, 376, 15" CvTextArgument="Enter an address, neighborhood, city, or ZIP code" CvType="Text" DesignTimeRectangle="65, 435, 402, 72" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='StyledFormControl-c11n-8-106-0__sc-w61kvv-0 igfrFI Input-c11n-8-106-0__sc-4ry0fw-0 ljYGJX' placeholder='Enter an address, neighborhood, city, or ZIP code' aaname='clear search text buttonSubmit Search' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="59d1918d-0719-4630-882b-fb65b10ff601" InformativeScreenshot="8032e4eeb46b30d75e2c563b236a7e86.png" Reference="bH_eC34UB06B7vDj88Olnw/AWuKwQ3fwk-puvz7mqMKpQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zillow: Real Estate, Apartments, Mortgages &amp;amp; Home Values' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="467, 435, 77, 72" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='StyledAdornment-c11n-8-106-0__sc-1h2m3pa-0 AdornmentRight-c11n-8-106-0__sc-46k37c-0 fdWxSd hGKwpM SearchBoxInput__StyledSearchBoxAdornment-sxp-sb-8-106-0__sc-1hknwe6-0 cGaWQm' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Submit Search' /&gt;" Guid="ccc57b66-e7f7-4908-964d-db553d1270d1" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="3211, 104, 892, 1028" BrowserType="Chrome" ContentHash="Hi74834ivEKkueyWLxv3eA" IconBase64="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" sap2010:WorkflowViewState.IdRef="TargetApp_2" InformativeScreenshot="c690ce8cf5298d3132e24150f56cce16.jpg" Reference="bH_eC34UB06B7vDj88Olnw/03tn2lm4QEWF7_xDlilOhg" Selector="&lt;html app='chrome.exe' title='Zillow: Real Estate, Apartments, Mortgages &amp;amp; Home Values' /&gt;" Url="https://www.zillow.com/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
