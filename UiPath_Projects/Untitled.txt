@@ -1,0 +1,1 @@
+Invoice Name = Print&Paper Co., Invoice Date = 2025-06-21, Invoice Number = INV-1005, Invoice Total = $8239.47

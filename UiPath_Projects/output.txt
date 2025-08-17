@@ -1,0 +1,9 @@
+﻿Invoice Name = DataSolutions Corp., Invoice Date = 2025-07-17, Invoice Number = INV-1001, Invoice Total = $1403.00
+
+Invoice Name = TechSupplies Inc., Invoice Date = 2025-07-20, Invoice Number = INV-1002, Invoice Total = $8403.50
+
+Invoice Name = TechSupplies Inc., Invoice Date = 2025-06-10, Invoice Number = INV-1003, Invoice Total = $7220.20
+
+Invoice Name = Print&Paper Co., Invoice Date = 2025-06-10, Invoice Number = INV-1004, Invoice Total = $710.59
+
+Invoice Name = Print&Paper Co., Invoice Date = 2025-06-21, Invoice Number = INV-1005, Invoice Total = $8239.47
